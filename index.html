@@ -3,66 +3,64 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Your Name - Resume</title>
+    <title>Ali Mahmudi - Resume</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-
-    <!-- Header Section -->
     <header>
-        <h1>Your Name</h1>
-        <p>Your Title (e.g., Web Developer, Software Engineer)</p>
+        <div class="container">
+            <div class="profile">
+                <img src="ResumePic.jpg" alt="Ali Mahmudi" class="profile-img">
+                <h1>Ali Mahmudi</h1>
+                <p>Computer Science Expert</p>
+                <div class="cta">
+                    <a href="Resume.pdf" class="btn" download>Download CV</a>
+                    <a href="#contact" class="btn contact-btn">Contact Me</a>
+                </div>
+            </div>
+        </div>
     </header>
 
-    <!-- Navigation -->
-    <nav>
-        <ul>
-            <li><a href="#about">About Me</a></li>
-            <li><a href="#experience">Experience</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
-
-    <!-- About Section -->
     <section id="about">
-        <h2>About Me</h2>
-        <p>Write a brief introduction about yourself here.</p>
+        <div class="container">
+            <h2>About Me</h2>
+            <p>Passionate computer science expert with extensive knowledge in machine learning, supply chain disruption prediction, and software development. Looking forward to sharing my expertise with leading professors and industry experts.</p>
+        </div>
     </section>
 
-    <!-- Experience Section -->
-    <section id="experience">
-        <h2>Experience</h2>
-        <ul>
-            <li>Job Title at Company 1 (Years)</li>
-            <li>Job Title at Company 2 (Years)</li>
-            <!-- Add more experience as needed -->
-        </ul>
+    <section id="what-i-do">
+        <div class="container">
+            <h2>What I Do</h2>
+            <div class="services">
+                <div class="service">
+                    <i class="fas fa-code"></i>
+                    <h3>Web Development</h3>
+                    <p>Building highly responsive websites and web applications using modern frameworks like React, Dash, and .NET.</p>
+                </div>
+                <div class="service">
+                    <i class="fas fa-robot"></i>
+                    <h3>AI & Machine Learning</h3>
+                    <p>Developing cutting-edge AI models for data analysis and automation, specializing in predictive analytics and supply chain disruption prediction.</p>
+                </div>
+                <div class="service">
+                    <i class="fas fa-database"></i>
+                    <h3>Big Data Analysis</h3>
+                    <p>Leveraging data from various sources to extract meaningful insights and provide data-driven solutions to complex problems.</p>
+                </div>
+            </div>
+        </div>
     </section>
 
-    <!-- Skills Section -->
-    <section id="skills">
-        <h2>Skills</h2>
-        <ul>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JavaScript</li>
-            <!-- Add more skills as needed -->
-        </ul>
-    </section>
-
-    <!-- Projects Section -->
-    <section id="projects">
-        <h2>Projects</h2>
-        <p>List your projects or link to them.</p>
-    </section>
-
-    <!-- Contact Section -->
     <section id="contact">
-        <h2>Contact</h2>
-        <p>Email: your-email@example.com</p>
+        <div class="container">
+            <h2>Contact Me</h2>
+            <p>Feel free to reach out for collaborations or inquiries about my projects.</p>
+            <a href="mailto:AliMahmudi@example.com" class="btn contact-btn">Email Me</a>
+        </div>
     </section>
 
 </body>
