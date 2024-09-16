@@ -15,6 +15,7 @@ body {
     
 }
 
+
 /* Header */
 header {
     background-color: #0056b3;
@@ -209,6 +210,15 @@ html {
         padding: 8px 20px;
         font-size: 0.9em;
     }
+}
+.profile-img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;  /* Ensures the image scales properly without stretching */
+    border-radius: 50%;
+    border: 5px solid white;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);  /* Adds a subtle shadow to make the image pop */
 }
 
 
